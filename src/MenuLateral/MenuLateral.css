@@ -1,0 +1,29 @@
+.menu{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(67, 65, 65);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 3%;
+    color: aliceblue;
+}
+
+.imgLogo{
+    width: 80px;
+    height: 80px;
+    transform: rotateX(1.5turn);
+}
+
+p+div{
+    display: none;
+}
+
+p:hover+div{
+    display: block;
+}
+
+.s{
+    display: inline;
+    transform: rotate(8turn);
+}
