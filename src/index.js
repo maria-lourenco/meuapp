@@ -53,8 +53,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='corpo'>
-      <MenuLateral />
-      <div>
+      <MenuLateral/>
+      <div className='paginas'>
         <Router>
           <Routes>
             <Route path='/' element={<Funcionarios />} />
@@ -66,6 +66,7 @@ root.render(
             <Route path='/cliente/programaFidelidade' element={<ClienteProgramaFidelidade />} />
             <Route path='/configuracoes' element={<Configuracao />} />
             <Route path='/estoque/configuracao' element={<EstoqueConfiguracao />} />
+            <Route path='/estoque/estoque' element={<EstoqueEstoque />} />
             <Route path='/estoque/ImpressaoDeEtiqueta' element={<EstoqueImpressaoEtiqueta />} />
             <Route path='/estoque/listaDemateriais' element={<EstoqueListaDeMateriais />} />
             <Route path='/estoque/operacoesEStoque' element={<EstoqueOperacaoEstoque />} />

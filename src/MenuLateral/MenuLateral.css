@@ -1,29 +1,69 @@
 .menu{
-    width: 30%;
+   
+}
+.menuvazio{
+    background-color: rgb(67, 65, 65);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5%;
+    height: 100%;
+}
+
+.menuDados{
+    display: none;
+    width: 25%;
     height: 100%;
     background-color: rgb(67, 65, 65);
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
     padding: 3%;
     color: aliceblue;
+    overflow-y: auto;
 }
 
-.imgLogo{
-    width: 80px;
-    height: 80px;
-    transform: rotateX(1.5turn);
-}
-
-p+div{
+.menuvazio:hover{
     display: none;
 }
-
-p:hover+div{
+.menuvazio:hover+.menuDados{
     display: block;
 }
 
-.s{
-    display: inline;
-    transform: rotate(8turn);
+.menuDados:hover{
+    display: block;
+}
+.menuDados:hover+.menuvazio{
+    display: no;
+}
+.imgLogo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10%;
+}
+
+.submenu{
+    display: none;
+    margin-left: 30px;
+}
+
+.menu-btn:hover+.submenu,.submenu:hover{
+    display: block;
+}
+
+.menu-btn{
+    background: none;
+    border: none;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+    
+}
+.menu-item{
+    margin-top: 5%;
 }
