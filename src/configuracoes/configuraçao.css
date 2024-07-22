@@ -1,0 +1,20 @@
+.aConfiguracao{
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+    display: block;
+    margin: 5px;
+   
+}
+
+
+.aConfiguracao:hover{
+    color: black;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container-fluid{
+    margin-top: 50px;
+}
